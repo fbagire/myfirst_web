@@ -44,10 +44,14 @@ button {
     font-weight: 300;
 
 }
-
+.callSignUp button{
+    border-radius: 5px;
+    border: white solid 2px;
+}
 .content {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .contentAbove {
@@ -55,20 +59,21 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 60px;
 }
 
 .aboveLeft {
     display: flex;
     flex-direction: column;
     width: 500px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
 
 }
 
 .aboveRight img {
     width: 400px;
     height: 200px;
-    margin-right: 60px;
+    /* margin-right: 60px; */
 }
 
 .cardimage img {
@@ -82,17 +87,34 @@ button {
 .contentMiddle {
     display: flex;
     flex-direction: column;
+    padding: 60px;
+    gap: 50px;
+    /* justify-content: space-between; */
     /* flex-grow: 1; */
 }
 
 .cardimage {
     display: flex;
     justify-content: center;
+    gap: 100px;
 }
 
 .imgeneral {
     display: flex;
     flex-direction: column;
+    width: 150px;
+    text-align: center;
+
+}
+
+.middleHeader {
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+
 }
 
 .contentBelow {
@@ -101,9 +123,6 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 800px;
-    height: 100px; */
-
 }
 
 .quoteText {
@@ -121,6 +140,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 60px;
 }
 
 .callAction {
@@ -128,7 +148,8 @@ button {
     flex-direction: row;
     background-color: #3882f6;
     border-radius: 5px;
-    width: 1000px;
+    padding: 30px;
+    /* width: 1000px; */
     justify-content: space-around;
     align-items: center;
 
