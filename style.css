@@ -13,7 +13,7 @@ body {
     justify-content: space-around;
 }
 
-.headings a {
+.headings a,.introSmall {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -24,24 +24,91 @@ body {
     /* margin-right: 10px; */
 }
 
-.contentAbove {
-    background-color: #1F2937;
+.introTitle{
+    font-size: 38px;
+    font-weight: 800;
+    color: #f9faf8;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.contentAbove {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.aboveLeft{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.aboveRight{
+    width: 150px;
+}
+
+.cardimage{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+.contentMiddle{
+    display: flex;
+    flex-grow: 1;
+}
 .contentBelow {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 800px;
+    height: 100px; */
+    
 }
 
 .quoteText {
+    display: flex;
+    flex-grow: 0;
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 300;
     color: #1F2937;
+    width: 800px;
+    padding: 18px;
+    /* height: 200px; */
 }
 
+.callActionParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.callAction{
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 1000px;
+    justify-content: space-around;
+    align-items: center;
 
+}
 
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 a {
