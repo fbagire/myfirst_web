@@ -6,62 +6,95 @@ body {
     flex-direction: column;
 }
 
-
 .headings {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.headings a,.introSmall {
+.headings a,
+.introSmall {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.headings-left {
+.headings-right {
     display: flex;
     gap: 20px;
-    /* margin-right: 10px; */
+    margin-right: 60px;
 }
 
-.introTitle{
+.headings-left {
+    margin-left: 20px;
+
+}
+
+.introTitle {
     font-size: 38px;
     font-weight: 800;
     color: #f9faf8;
 }
 
-.content{
+
+button {
+    border-radius: 5px;
+    background-color: #3882f6;
+    border: 0;
+    color: white;
+    font-weight: 300;
+
+}
+
+.content {
     display: flex;
     flex-direction: column;
 }
+
 .contentAbove {
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
-.aboveLeft{
+.aboveLeft {
     display: flex;
     flex-direction: column;
     width: 500px;
+    margin-left: 60px;
+
 }
 
-.aboveRight{
-    width: 150px;
-}
-
-.cardimage{
-    width: 300px;
+.aboveRight img {
+    width: 400px;
     height: 200px;
+    margin-right: 60px;
+}
+
+.cardimage img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
 }
 
 
 
-.contentMiddle{
+.contentMiddle {
     display: flex;
-    flex-grow: 1;
+    flex-direction: column;
+    /* flex-grow: 1; */
 }
+
+.cardimage {
+    display: flex;
+    justify-content: center;
+}
+
+.imgeneral {
+    display: flex;
+    flex-direction: column;
+}
+
 .contentBelow {
     background-color: #e5e7eb;
     display: flex;
@@ -70,12 +103,11 @@ body {
     align-items: center;
     /* width: 800px;
     height: 100px; */
-    
+
 }
 
 .quoteText {
     display: flex;
-    flex-grow: 0;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
@@ -85,13 +117,13 @@ body {
     /* height: 200px; */
 }
 
-.callActionParent{
+.callActionParent {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.callAction{
+.callAction {
     display: flex;
     flex-direction: row;
     background-color: #3882f6;
@@ -102,7 +134,7 @@ body {
 
 }
 
-.footer{
+.footer {
     background-color: #1F2937;
     color: white;
     display: flex;
