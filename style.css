@@ -74,12 +74,11 @@ button {
 
 .aboveRight img {
     width: 400px;
-    height: 200px;
-    /* margin-right: 60px; */
+    height: 250px;
 }
 
 .cardimage img {
-    width: 200px;
+    width: 250px;
     height: 200px;
     border-radius: 5px;
 }
@@ -98,14 +97,14 @@ button {
 .cardimage {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 80px;
 }
 
 .imgeneral {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    width: 150px;
+    width: 250px;
     /* text-align: center; */
 
 }
@@ -166,10 +165,8 @@ button {
     flex-direction: row;
     background-color: #3882f6;
     border-radius: 5px;
-    gap: 250px;
+    gap: 200px;
     padding: 30px 70px 30px 70px;
-    /* width: 1000px; */
-    /* justify-content: space-around; */
     align-items: center;
 
 }
